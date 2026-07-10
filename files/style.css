@@ -1,0 +1,141 @@
+HTML {
+	FONT-SIZE: 100%;
+	BACKGROUND: #fff;
+	-MS-TEXT-SIZE-ADJUST: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+BODY {
+	FONT-SIZE: 15px;
+	FONT-FAMILY: Georgia, "Times New Roman", serif;
+	COLOR: #222;
+	MARGIN: 0px;
+	LINE-HEIGHT: 1.55;
+}
+#content {
+	BACKGROUND: #fff;
+	PADDING: 20px 50px 50px;
+	MARGIN: 0px auto;
+	WIDTH: 927px;
+	MAX-WIDTH: 100%;
+	BOX-SIZING: border-box;
+}
+H1 {
+	FONT-SIZE: 30px;
+	MARGIN: 0px;
+	DISPLAY: inline;
+}
+H2 {
+	FONT-SIZE: 20px;
+	PADDING-TOP: 15px;
+	DISPLAY: inline-block;
+	BORDER-BOTTOM: 2px solid #0a2245;
+	MARGIN-BOTTOM: 8px;
+}
+P {
+	MARGIN: 10px 10px 10px 0;
+}
+TABLE {
+	MARGIN-BOTTOM: 10px;
+	FONT-SIZE: 13px;
+	BORDER-COLLAPSE: collapse;
+	TEXT-ALIGN: left;
+	WIDTH: 100%;
+	BACKGROUND-COLOR: #f6fbfe;
+}
+.title {
+	FONT-WEIGHT: bold;
+}
+TABLE A {
+	COLOR: black;
+	TEXT-DECORATION: none;
+}
+TD {
+	PADDING: 3px 5px 1px;
+	VERTICAL-ALIGN: top;
+}
+.left {
+	FONT-SIZE: 10px;
+	TEXT-ALIGN: center;
+	WIDTH: 40px;
+	BACKGROUND-COLOR: #e2eff9;
+}
+.badge {
+	COLOR: #c00;
+	FONT-WEIGHT: bold;
+}
+.venue {
+	COLOR: #444;
+}
+a:link {
+	COLOR: #483D8B;
+	TEXT-DECORATION: none;
+}
+a:visited {
+	COLOR: #483D8B;
+	TEXT-DECORATION: none;
+}
+a:hover {
+	COLOR: #000;
+	TEXT-DECORATION: underline;
+}
+IMG {
+	BORDER: 0;
+	VERTICAL-ALIGN: middle;
+}
+#profile-block {
+	MARGIN-BOTTOM: 10px;
+}
+#profile-block table {
+	BACKGROUND-COLOR: white;
+	WIDTH: 100%;
+}
+#profile-photo {
+	WIDTH: 200px;
+	HEIGHT: auto;
+	BORDER-RADIUS: 4px;
+}
+#bio {
+	TEXT-ALIGN: justify;
+	MARGIN-TOP: 18px;
+	MARGIN-BOTTOM: 10px;
+}
+.year-label {
+	DISPLAY: block;
+	MARGIN: 18px 0 10px;
+	FONT-WEIGHT: bold;
+}
+.section {
+	MARGIN-TOP: 8px;
+	CLEAR: both;
+}
+.links a {
+	MARGIN-RIGHT: 8px;
+}
+.footer-note {
+	MARGIN-TOP: 40px;
+	FONT-SIZE: 12px;
+	COLOR: #888;
+	TEXT-ALIGN: center;
+}
+@media (max-width: 960px) {
+	#content {
+		WIDTH: 100%;
+		PADDING: 16px 20px 40px;
+	}
+	#profile-photo {
+		WIDTH: 160px;
+	}
+}
+@media (max-width: 640px) {
+	#profile-block table,
+	#profile-block tbody,
+	#profile-block tr,
+	#profile-block td {
+		DISPLAY: block;
+		WIDTH: 100%;
+	}
+	#profile-photo {
+		DISPLAY: block;
+		MARGIN: 0 auto 12px;
+	}
+}
